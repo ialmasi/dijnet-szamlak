@@ -1,0 +1,3 @@
+[submodule "dijnet-bot"]
+	path = dijnet-bot
+	url = git@github.com:juzraai/dijnet-bot.git

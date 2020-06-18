@@ -1,0 +1,8 @@
+version: "3"
+services:
+  dijnet-bot:
+    build: .
+    volumes:
+       - ./dijnet-config:/config
+       - ${DIJNET_OUTPUT_DIR}:/tmp/szamlak
+    command: ["dijnet-bot", "--output-dir=/tmp/szamlak", "-s=5"]
